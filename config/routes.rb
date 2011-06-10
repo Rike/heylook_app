@@ -1,4 +1,20 @@
 Heylook::Application.routes.draw do
+  get "pages/corporate_events"
+
+  get "pages/sales_spaces"
+
+  get "pages/weddings"
+
+  get "pages/home"
+
+  get "pages/services"
+
+  get "pages/portfolio"
+
+  get "pages/about_us"
+
+  get "pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
